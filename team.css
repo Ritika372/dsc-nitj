@@ -1,0 +1,90 @@
+*{
+  margin:0;
+  padding:0;
+}
+.right-menu li{
+  display:inline-block;
+  margin-top:10px !important;
+}
+.right-menu a{
+  color:black;
+}
+.right-menu a:hover{
+  color:blue;
+}
+.right-menu li .fa{
+  cursor:pointer;
+  margin-right: 10px;
+  font-size: 18px;
+}
+.nav-item{
+  font-weight:bold;
+}
+.header{
+  background: #f5f6fc;
+  background-attachment: fixed;
+}
+.dsc{
+  margin : 80px 115px;
+  width:60%;
+}
+.dsc img{
+  width:100%;
+  margin-bottom: -80px;
+}
+.dsc-title{
+  position: absolute;
+  top:30%;
+  left: 50%;
+}
+.dsc-title h1{
+  font-size: 55px;
+  background:rgba(0,0,0,0.75);
+  color:white;
+  line-height: 70px;
+  padding: 0px 10px 0 10px;
+}
+.section{
+  display: flex;
+}
+.team{
+  margin:50px 50px;
+}
+.team img{
+  width:250px;
+  height:300px;
+  padding:20px;
+  flex-wrap: wrap;
+}
+.h2style h2{
+  padding:40px 0;
+}
+.h2style{
+  margin: 0 auto 80px;
+  height: 120px;
+  width:80%;
+  max-width:700px;
+  background: white;
+  position: relative;
+  box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);
+}
+.h2style::after{
+  content:'';
+  height:100px;
+  width:200px;
+  background-color: grey;
+  position: absolute;
+  top: -10px;
+  left:-10px;
+  z-index:-1;
+}
+.h2style::before{
+  content:'';
+  height:100px;
+  width:200px;
+  background-color: grey;
+  position: absolute;
+  bottom: -10px;
+  right:-10px;
+  z-index:-1;
+}
