@@ -27,6 +27,8 @@
 -webkit-transform: scale(1.15);
 -ms-transform: scale(1.15);
 transform: scale(1.15);
+transition-duration:0.2s ease;
+transition:0.2s ease;
 }
 .header{
   background: #f5f6fc;
@@ -203,4 +205,11 @@ box-shadow: 0 0 10px #ccc;
   justify-content: space-around;
   width:30%;
   margin-bottom: 160px;
+}
+.sponser-img :hover{
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+  transition: 0.5s ease;
+  opacity:1.5;
 }
