@@ -103,10 +103,9 @@
   text-decoration: none;
 }
 .joinus a:hover{
-border : 1px solid white;
+border : 1px solid blue;
 color:white;
-background: black;
-transition: ease 0.2s;
+background: blue;
 }
 .box2{
   display:flex;
