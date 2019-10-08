@@ -11,6 +11,9 @@
 }
 .right-menu a:hover{
   color:blue;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .right-menu li .fa{
   cursor:pointer;
@@ -19,6 +22,11 @@
 }
 .nav-item{
   font-weight:bold;
+}
+.nav-item a:hover{
+-webkit-transform: scale(1.15);
+-ms-transform: scale(1.15);
+transform: scale(1.15);
 }
 .header{
   background: #f5f6fc;
@@ -106,6 +114,9 @@
 border : 1px solid blue;
 color:white;
 background: blue;
+-moz-box-shadow: 0 0 10px #ccc;
+-webkit-box-shadow: 0 0 10px #ccc;
+box-shadow: 0 0 10px #ccc;
 }
 .box2{
   display:flex;
