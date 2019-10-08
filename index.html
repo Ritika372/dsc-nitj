@@ -18,6 +18,7 @@
         var defaultCSS = document.getElementById('bootstrap-css');
         function changeCSS(css){
             if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />');
+
             else $('head > link').filter(':first').replaceWith(defaultCSS);
         }
         $( document ).ready(function() {
@@ -100,7 +101,7 @@
 
 </section>
 <div class="h2style text-center" id="contactus">
-  <h2>Contact Us</h2>
+<h2>Contact Us</h2>
 </div>
 <section class="footer">
   <div class="container contact-form">
