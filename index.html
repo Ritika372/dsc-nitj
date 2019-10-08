@@ -10,6 +10,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <link rel ="stylesheet" href="style.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />');
+            else $('head > link').filter(':first').replaceWith(defaultCSS);
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height());
+          window.parent.postMessage( iframe_height, 'https://bootsnipp.com');
+        });
+    </script>
 </head>
 <body>
   <section class="header">
@@ -23,13 +37,13 @@
         <a class="nav-link" href="#">DSC.NITJ <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">ABOUT US</a>
+        <a class="nav-link" href="#aboutus">ABOUT US</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">TEAM</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">CONTACT US</a>
+        <a class="nav-link" href="#contactus">CONTACT US</a>
       </li>
 
     </ul>
@@ -54,9 +68,9 @@
 </section>
 <section class="about">
   <div class="container1">
-    <div class="box1">
+    <div class="box1" id="aboutus">
       <div class="h2style text-center">
-        <h2>About Us</h2>
+        <h2 >About Us</h2>
       </div>
       <h3>What is Developer Student Club?</h3>
       <p class="text-center">A Developer Students Club is a Google recogznied student body at a college which directly reports to Google for their activities and is supported by the tech giant. A DSC conducts workshops, seminars and other fun activities which help the students connect with Google. And we give Google interview referrals too!<br><br>Google collaborates with university students who are passionate about growing developer communities and supports them with starting student clubs on their campuses. These DSCs provide students with the opportunity to: Grow their knowledge on developer technologies and more through peer to peer workshops and events. Gain relevant industry experience by solving problems for local organizations with technology based solutions. Showcase their prototypes and solutions to their local community and industry leaders. Google Developers supports and recognizes DSCs, but does not own or manage them.</p>
@@ -82,8 +96,42 @@
 <p></p>
 
 </div>
+
 </section>
+<div class="h2style text-center" id="contactus">
+  <h2>Contact Us</h2>
+</div>
 <section class="footer">
+  <div class="container contact-form">
+            <div class="contact-image">
+                <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+            </div>
+            <form method="post">
+                <h3>Drop Us a Message</h3>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+</div>	<script type="text/javascript">
+		</script>
 </section>
 </body>
 </html>
