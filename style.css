@@ -194,3 +194,13 @@ box-shadow: 0 0 10px #ccc;
     border: none;
     cursor: pointer;
 }
+.sponser{
+  display:flex;
+}
+.sponser-img img{
+  height:200px;
+  width:200px;
+  justify-content: space-around;
+  width:30%;
+  margin-bottom: 160px;
+}
