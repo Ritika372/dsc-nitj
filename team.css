@@ -22,7 +22,7 @@
 }
 .header{
   background: #f5f6fc;
-  background-attachment: fixed;
+  margin-bottom:50px;
 }
 .dsc{
   margin : 80px 115px;
