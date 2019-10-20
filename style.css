@@ -236,3 +236,7 @@ transition:0.2s ease;
     transition:0.2s ease;
   }
 }
+.p{
+  background: #e0dfde;
+  padding:0px;
+}
