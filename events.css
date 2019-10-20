@@ -166,3 +166,15 @@ transition: 0.4s ease;
 transition-duration: 0.4s ease;
       opacity:0.6;
 }
+@media only screen and (max-width: 700px) {
+  .dsc-title{
+    visibility: hidden;
+  }
+  .nav-item a:hover{
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition-duration:0.2s ease;
+    transition:0.2s ease;
+  }
+}
