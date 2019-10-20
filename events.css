@@ -46,6 +46,24 @@ transition:0.2s ease;
   top:30%;
   left: 50%;
 }
+.joinus a{
+  border : 1px solid black;
+  padding: 5px;
+  text-decoration: none;
+}
+.joinus a:hover{
+border : 1px solid blue;
+color:white;
+background: blue;
+-moz-box-shadow: 0 0 10px #ccc;
+-webkit-box-shadow: 0 0 10px #ccc;
+box-shadow: 0 0 10px #ccc;
+-webkit-transform: scale(1.15);
+-ms-transform: scale(1.15);
+transform: scale(1.15);
+transition-duration:0.2s ease;
+transition:0.2s ease;
+}
 .dsc-title h1{
   font-size: 55px;
   background:rgba(0,0,0,0.75);
@@ -101,9 +119,6 @@ transition:0.2s ease;
   right:-10px;
   z-index:-1;
 }
-.box2{
-  display:flex;
-}
 .box2 h3 a{
   font-size: 20px;
   font-style: italic;
@@ -129,4 +144,25 @@ transition:0.2s ease;
   text-align: center;
   margin:20px;
   color:grey;
+}
+ul li{
+  font-weight: bold;
+  font-size: 20px;
+  color: grey;
+
+}
+ul img{
+  width:450px;
+  height:300px;
+  padding:20px;
+  border-top: 1px solid grey;
+    background: #e6e6e6;
+}
+.list:hover {
+  -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 0.4s ease;
+transition-duration: 0.4s ease;
+      opacity:0.6;
 }
