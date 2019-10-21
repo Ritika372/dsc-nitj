@@ -103,7 +103,7 @@ transition:0.2s ease;
   content:'';
   height:100px;
   width:200px;
-  background-color: grey;
+  background-color: #212529;
   position: absolute;
   top: -10px;
   left:-10px;
@@ -113,7 +113,7 @@ transition:0.2s ease;
   content:'';
   height:100px;
   width:200px;
-  background-color: grey;
+  background-color: #212529;
   position: absolute;
   bottom: -10px;
   right:-10px;
@@ -135,7 +135,7 @@ transition:0.2s ease;
   box-shadow: 0 4px 5px 0 rgba(0,0,50,0.5);
 }
 .code:hover{
-  background:#c8c5c9;
+  background:#EBEBEB;
   transition: 0.5s ease;
   opacity:1.5;
 }
@@ -148,15 +148,14 @@ transition:0.2s ease;
 ul li{
   font-weight: bold;
   font-size: 20px;
-  color: grey;
+  color: white;
 
 }
 ul img{
   width:450px;
   height:300px;
   padding:20px;
-  border-top: 1px solid grey;
-    background: #e6e6e6;
+  border-top: 1px solid white;
 }
 .list:hover {
   -webkit-transform: scale(1.2);
@@ -177,4 +176,17 @@ transition-duration: 0.4s ease;
     transition-duration:0.2s ease;
     transition:0.2s ease;
   }
+}
+.off{
+  background-image: url("technology-785742__480.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.footer2{
+  padding:5%;
+  color:white;
+  background-color: #212529;
+  text-align: center;
 }

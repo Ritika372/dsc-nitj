@@ -20,8 +20,15 @@
 .nav-item{
   font-weight:bold;
 }
+.nav-item a:hover{
+-webkit-transform: scale(1.15);
+-ms-transform: scale(1.15);
+transform: scale(1.15);
+transition-duration:0.2s ease;
+transition:0.2s ease;
+}
 .header{
-  background: #f5f6fc;
+  background: #EBEBEB;
   margin-bottom:50px;
 }
 .dsc{
@@ -43,7 +50,7 @@
   text-decoration: none;
 }
 .joinus a:hover{
-border : 1px solid blue;
+border : 1px solid white;
 color:white;
 background: blue;
 -moz-box-shadow: 0 0 10px #ccc;
@@ -66,8 +73,8 @@ transition:0.2s ease;
   display: flex;
   align-items: center;
   flex-flow: row wrap;
-  justify-content: space-around;
-  background: #e6e6e6;
+  justify-content: space-between;
+  background-image: url("technology-785742__480.jpg");
 }
 
 .hovereffect {
@@ -146,7 +153,7 @@ transform:translatey(0);
   content:'';
   height:100px;
   width:200px;
-  background-color: grey;
+  background-color: #212529;
   position: absolute;
   top: -10px;
   left:-10px;
@@ -156,7 +163,7 @@ transform:translatey(0);
   content:'';
   height:100px;
   width:200px;
-  background-color: grey;
+  background-color: #212529;
   position: absolute;
   bottom: -10px;
   right:-10px;
@@ -173,4 +180,11 @@ transform:translatey(0);
     transition-duration:0.2s ease;
     transition:0.2s ease;
   }
+}
+.footer{
+  padding:3%;
+  background: #212529;
+  color:white;
+  text-align: center;
+  font-size: 20px;
 }
