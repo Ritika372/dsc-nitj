@@ -81,7 +81,7 @@ transition:0.2s ease;
 }
 .box1 h3 {
   margin-bottom: 15px;
-  color: grey;
+  color: #212529;
   text-align: center;
 }
 .h2style::after{

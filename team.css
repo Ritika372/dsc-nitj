@@ -103,6 +103,7 @@ transition:all .4s ease-in-out
   padding:30px;
 -webkit-transition:all .4s linear;
 transition:all .4s linear;
+
 }
 
 .hovereffect h2 {
